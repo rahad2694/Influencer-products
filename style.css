@@ -47,6 +47,11 @@ body{
     width: 440px;
     height: 414px;
 }
+.container-2-item-2:hover img{
+    transform: rotate(360deg);
+    transition: transform 2s ease-in-out;
+}
+
 .container-2-heading{
     font-size: 52px;
     margin: 0;
@@ -72,4 +77,36 @@ body{
     margin: 10px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
+}
+.section-3-footer >p{
+    text-align: end;
+    color: rgba(224, 44, 109, 0.87);
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+}
+/* Section Bonus Styles */
+
+
+
+
+/* Body Footer Styles */
+.body-footer{
+    background: #0A0826;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+footer .fab{
+    color: #FFFFFF;
+    font-size: 15px;
+    margin:20px 10px 0 0;
+    background-color: rgba(255, 255, 255, 0.089);
+    padding: 10px;
+    border-radius: 25px;
+}
+footer h1,p{
+    margin: 0;
 }
