@@ -78,8 +78,14 @@ body{
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
 }
-.section-3-footer >p{
+.section-3-footer{
     text-align: end;
+}
+.rating .fas{
+    color: #FB8200;
+}
+.section-3-footer >a{
+    text-decoration: none;
     color: rgba(224, 44, 109, 0.87);
     font-size: 16px;
     font-weight: bold;
@@ -87,7 +93,33 @@ body{
 }
 /* Section Bonus Styles */
 
-
+.logos img{
+    width: 25%;
+}
+.container-bonus{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px; 
+    margin-bottom: 10px;
+}
+.contact-form,.download-app{
+    justify-content: center;
+    text-align: center;
+}
+.button-2{
+    background: #E02C6D;
+    border-radius: 5px;
+    color: white;
+    width: 100px;
+    height: 30px;
+    padding: 5px 5px 5px 5px;
+}
+.logos{
+    margin: 15px;
+}
 
 
 /* Body Footer Styles */
