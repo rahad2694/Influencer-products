@@ -1,0 +1,16 @@
+/* imported google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Licorice&family=Poppins:wght@500&display=swap');
+
+/* style for all elements */
+body{
+    font-family: 'Licorice', cursive;
+    font-family: 'Poppins', sans-serif;
+    margin: 50px;
+}
+
+/* section-1 styles */
+.container-1 p{
+    font-size: 24px;
+    font-weight: 700;
+    color: #3A3A3A;
+}
